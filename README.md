@@ -1,12 +1,14 @@
 
-<h1>Whaticket Saas</h1>
+<h1>WchatCloud</h1>
 
 <h3>Instalação</h3>
 
 <p>Ubuntu 20.04.6</p>
 <p>Debian 11</p>
+<br>
+<p>Testado no Ubuntu 20.4.6</p>
 
-<code>apt update && apt upgrade -y && apt install sudo git -y && sudo rm -rf wchatcloud && sudo git clone https://github.com/clauder18/wchatcloud.git && cd wchatcloud && sudo chmod +x ./instalador && ./instalador</code><br />
+<code>sudo apt update -y && apt install sudo git -y && sudo rm -rf wchatcloud && sudo git clone https://github.com/clauder18/wchatcloud.git && cd wchatcloud && sudo chmod +x ./instalador && ./instalador</code><br />
 &nbsp;</p>
 
 <h3><h3>
@@ -47,6 +49,3 @@
 
 
 <h1>Demonstração</h1>
-
-
-![GIF](demonstração/api.gif)
