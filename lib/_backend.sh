@@ -45,7 +45,7 @@ backend_set_env() {
   frontend_url=${frontend_url%%/*}
   frontend_url=https://$frontend_url
 
-sudo su - deployautomatizaai << EOF
+sudo su - deploywchatcloud << EOF
   cat <<[-]EOF > /home/deploywchatcloud/wchatcloud/backend/.env
 NODE_ENV=
 

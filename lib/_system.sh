@@ -30,7 +30,7 @@ EOF
 #######################################
 system_unzip_whaticket() {
   print_banner
-  printf "${WHITE} 💻 Fazendo unzip wchatcloudsaas...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Fazendo unzip wchatcloud...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
