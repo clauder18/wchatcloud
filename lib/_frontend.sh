@@ -13,7 +13,7 @@ frontend_node_dependencies() {
 
   sleep 2
 
-  sudo su - deploychatcloud <<EOF
+  sudo su - deploywchatcloud <<EOF
   cd /home/deploywchatcloud/wchatcloud/frontend
   npm install --force
 EOF
